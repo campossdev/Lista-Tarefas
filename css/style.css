@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background: #eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto{
+	color: indianred;
+	text-align: center;
+	font-size: 1.8rem;
+	margin-top: 2rem;
+}
+
+header{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto auto;
+	margin-top: 2rem;
+	flex-flow: row wrap;
+
+}
+
+header input{
+	width: 75%;
+	height: 50px;
+	font-size: 1.4rem;
+	padding-left: .5rem;
+	outline: none;
+	border-radius: .5rem 0 0 .5rem;
+}
+
+.btn{
+	width: 15%;
+	height: 50px;
+	background: green;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 0 .5rem .5rem 0;
+	border: none;
+	cursor: pointer;
+}
+
+main{
+	display: flex;
+	flex-flow: row wrap;
+	width: 90%;
+	margin: auto auto;
+	padding-top: 40px;
+}
+
+.item{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 90%;
+	margin: auto auto;
+	box-shadow: 0 0 20px #ccc;
+	margin-bottom: 2%;
+	background: #ffff;
+	border-radius: .5rem .5rem .5rem  .5rem;
+	cursor: pointer;
+}
+
+.item.clicado{
+	background: #d4f6d9;
+}
+
+.item.clicado .item-name{
+	text-decoration: line-through;
+	color: gray;
+}
+
+.item-icon{
+	flex: 15%;
+	text-align: center;
+	font-size: 2rem;	
+}
+
+.item-name{
+	flex: 65%;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.item-button{
+	flex: 15%;		
+}
+
+.delete{
+	background: red;
+	color: #ffff;
+	border: none;
+	padding: 10px;
+	height: 50px;
+	width: 100%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 0 .5rem .5rem 0;
+}
+
+
+.bxs-check-circle{
+	color: green;
+}
